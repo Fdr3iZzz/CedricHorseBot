@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "cedric-auto-walk",
+  "version": "${version}",
+  "name": "AutoWalk",
+  "description": "Walk back and forth in a straight line",
+  "authors": [
+    "Franz3"
+  ],
+  "contact": {
+    "repo": "https://github.com/Fdr3iZzz"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "de.franz.addon.Addon"
+    ]
+  },
+  "mixins": [
+    "addon-template.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=${mc_version}",
+    "meteor-client": "*"
+  }
+}
