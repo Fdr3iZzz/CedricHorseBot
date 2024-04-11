@@ -39,6 +39,6 @@ public class Addon extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.franz.addon";
+        return "de.franz.addon";
     }
 }
